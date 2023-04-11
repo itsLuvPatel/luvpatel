@@ -17,10 +17,7 @@ body {
 }
 
 .header {
-  float: right;
-
-  padding-top: 0%;
-  padding-right: 30px;
+  padding: auto;
   font-size: 25px;
 
 }
@@ -52,7 +49,7 @@ a {
 img {
   align-items: center;
   align-self: center;
-  padding-top: 520px;
+  padding-top: 350px;
 }
 
 
@@ -161,4 +158,10 @@ button[type="submit"]:hover {
 
 .dropdown-toggle:not(:focus) {
   outline: 0;
+}
+
+
+
+.contact-buttons {
+  margin-right: 20px;
 }
