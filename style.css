@@ -1,0 +1,119 @@
+body {
+
+    text-align: center;
+
+    background-color: #E0EBE7;
+
+   
+        font-family: 'SunnyspellsRegular', sans-serif;
+      
+
+
+}
+@font-face {
+    font-family: 'SunnyspellsRegular';
+    src: url('./SunnyspellsRegular-MV9ze.otf') format('opentype');
+  }
+
+.header {
+    float: right;
+
+    padding-top: 0%;
+    padding-right: 30px;
+    font-size: 25px;
+
+}
+
+a {color: rgb(75, 110, 75);}
+
+.text {
+    padding-top: 0px;
+margin: 0%;
+    color: burlywood;
+    font-size: 100px;
+}
+
+.text1 {
+    padding-top: 200px;
+    margin: 0%;
+   color: burlywood;
+   font-size: 50px;
+
+   
+}
+
+img {padding-top: 200px;}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgb(75, 110, 75);
+  }
+
+  .download-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgb(75, 110, 75);
+    color: rgb(75, 110, 75);
+    font-size: 18px;
+   
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  
+  }
+  
+  .download-button:hover {
+    background-color:rgb(41, 51, 41);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  }
+  .about {color: burlywood;
+margin-top: 10%; 
+  }
