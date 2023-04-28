@@ -1,0 +1,235 @@
+@font-face {
+  font-family: 'MPLUSRounded1c-Medium';
+  src: url('MPLUSRounded1c-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Define a breakpoint for screens with a minimum width of 768 pixels */
+@media screen and (min-width: 768px) {
+  .button {
+    margin: 8px;
+    height: 50px; /* increased height */
+    width: 120px; /* increased width */
+    font-size: 16px; /* increased font size */
+  }
+}
+
+/* Define a breakpoint for screens with a maximum width of 600 pixels */
+@media screen and (max-width: 600px) {
+
+  .button {
+    margin: 8px;
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+  }
+
+  #h12 {
+    font-size: 60px;
+  }
+
+  table {
+    font-size: 12px;
+    max-width: 90%;
+  }
+
+}
+
+/* Define a breakpoint for screens with a maximum width of 400 pixels */
+@media screen and (max-width: 400px) {
+
+  .button {
+    margin: 6px;
+    height: 30px;
+    width: 80px;
+    font-size: 12px;
+  }
+
+  #h12 {
+    font-size: 40px;
+  }
+
+  table {
+    font-size: 10px;
+    max-width: 90%;
+  }
+
+}
+
+/* Common styles for all screen sizes */
+button {
+  border-radius: 10px;
+  background: #333;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+  font-family: 'Damion', cursive;
+  border: none;
+  color: rgb(179, 179, 179);
+  transition: 500ms;
+}
+
+button:hover {
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+  color: #d4d4d4;
+  transition: 500ms;
+}
+
+body{
+  background-color: black;
+  color: rgb(212, 212, 212);
+  font-family: 'MPLUSRounded1c-Medium', sans-serif;
+}
+
+#texts {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+#t1 {margin-bottom: 2em ;}
+
+@font-face {
+  font-family: 'CuteFont';
+  src: url('./CuteFont-Regular.ttf') format('truetype');
+}
+
+#h12 {
+  font-family: 'CuteFont', sans-serif;
+  font-size: 70px;
+  margin-top: 0;
+}
+
+#h11 {
+  margin: 0;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  margin: 0 auto;
+  border-bottom: none;
+  max-width: 100%;
+}
+
+h1{
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.imag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.section {
+  min-width: 70%;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #333333;
+  border-radius: 20px;
+}
+.b1 {
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+/* Common styles for all screen sizes */
+
+
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+th, td {
+  padding: 10px;
+  border: 0px solid #ddd;
+}
+
+/* Styles for screens with a maximum width of 600 pixels */
+@media screen and (max-width: 600px) {
+
+  /* Turn the table rows into columns */
+  tr {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* Set the table header as bold */
+  th {
+    font-weight: bold;
+  }
+
+  /* Hide the table header */
+  th {
+    display: none;
+  }
+
+  /* Set the table data to take up full width */
+  td {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  /* Add a border to the table data */
+  td:before {
+    content: attr(data-label);
+    display: inline-block;
+    width: 50%;
+    margin-right: 10px;
+    font-weight: normal;
+  }
+}
+#copyright {padding-top: 5rem;}
+about {
+  max-width: 75%;
+}
+
+
+
+
+#body {
+  position: fixed;
+  top: 25%;
+  left: 15%;
+  right: 15%;
+  transform: translate(auto, auto);
+  background-color: #333333;
+    border-radius: 20px; 
+    background-color: #333333;
+    padding: 0px;
+
+
+
+}
+
+#p {padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  
+  color: rgb(227, 227, 227);
+  }
+  
+  
+
